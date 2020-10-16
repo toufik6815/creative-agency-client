@@ -86,3 +86,16 @@ abbr[title]{
 .react-calendar__navigation__next2-button{
     display: none;
 }
+
+@media (max-width: 600px) {
+ 
+  .addReview_container{
+      width: 100%;
+      padding: 10px;
+  }
+  .addReview_container {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    }
+}

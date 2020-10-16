@@ -4,18 +4,18 @@
     background: #FBD062;
     clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 76%, 82% 81%, 31% 93%, 0 100%, 0 0);
 }
-
 .navbar img{
     width: 170px;
 }
-
 /* header main */
-
+.header_main{
+    width: 100%;
+    padding: 10px;
+}
 .header_main img{
     width: 624.6px;
     height: 422.8px;
 }
-
 .header_main h1{
     color: #3A4256;
     font-weight: bold;
@@ -25,7 +25,6 @@
 .header_main span{
     color: #7AB259
 }
-
 .button,
 .header_main button{
     padding: 15px 55px;
@@ -49,7 +48,6 @@
      background: #000000;
     color: #fff;
 }
-
 .features-service button{
     margin: 30px 0;
     padding: 15px 25px;
@@ -58,13 +56,14 @@
     color: #ffffff;
     background: #10D0E9;
 }
-
+.header_content_write{
+    padding: 10px;
+}
 
 @media (max-width: 768px){
     .header_content_write{
-        padding: 42px;
+        padding: 30px 0 30px 30px;
     }
-
     .navbar .button{
        display: flex;
        justify-content: center;

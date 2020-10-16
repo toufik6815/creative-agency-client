@@ -28,3 +28,17 @@
     font-size: 40px;
     font-family: 'Satisfy', cursive;
 }
+
+
+@media (max-width: 600px) {
+ 
+  .addOrder_container{
+      width: 100%;
+      padding: 10px;
+  }
+  .addOrder_container {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    }
+}

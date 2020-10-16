@@ -1,5 +1,5 @@
 .services_container{
-    margin-top: 130px ;
+    margin-top: 80px ;
     position: relative ;
 }
 .services_container h5{
@@ -62,12 +62,17 @@
     margin: 80px 0;
     padding: 30px 20px;
     transition: .5s;
+    border-radius: 5px;
     box-shadow: -20px 30px 20px  rgba(0, 0, 0, 0.1);
     position: relative;
     -webkit-transition: .5s;
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .services_detail img{
     height: 60px;
@@ -97,7 +102,7 @@
     left: 0;
     width: 100%;
     height: 0;
-    background: linear-gradient(-180deg, #7AB259 0%, #7AB259 43%, #8dc66c 100%);
+    background: linear-gradient(-180deg, #111430 0%, #3b3f66  43%, #111430 100%);
     z-index: 1;
     transition: .5s;
     -webkit-transition: .5s;
@@ -123,4 +128,13 @@
   .services_container{
       margin: 144px 0 100px 0;
   }
+  .addService_container{
+      width: 100%;
+      padding: 10px;
+  }
+  .addService_container {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    }
 }
