@@ -137,4 +137,20 @@
     top: 10%;
     left: 0;
     }
+    .services_container h2:before {
+        top: 100px;
+        left: 136px;
+        width: 27px;
+        height: 8px;
+    }
+    .services_container h2:after {
+        top: 103px;
+        left: 49px;
+        width: 200px;
+        height: 2px;
+    }
+
+    .services_detail {
+        margin: 30px 0;
+    }
 }
