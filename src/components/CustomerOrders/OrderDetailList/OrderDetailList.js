@@ -8,7 +8,7 @@ const OrderDetailList = ({ order }) => {
                 {
                     order.image ? <img style={{ height: '60px' }} src={`data:image/png;base64,${order.image.img}`} alt="" />
                     :
-                    <img style={{ height: '60px' }} className="img-fluid mb-3" src={`https://hidden-chamber-33509.herokuapp.com/${order.img}`} alt="" />
+                    <img style={{ height: '60px' }} className="img-fluid mb-3" src={`https://evening-escarpment-47993.herokuapp.com//${order.img}`} alt="" />
                 }
             </div>
             

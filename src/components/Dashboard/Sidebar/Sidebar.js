@@ -18,7 +18,7 @@ const Sidebar = () => {
 
 
     useEffect(() => {
-        fetch('https://hidden-chamber-33509.herokuapp.com/admin', {
+        fetch('https://evening-escarpment-47993.herokuapp.com//admin', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({email: loggedInUser.email})

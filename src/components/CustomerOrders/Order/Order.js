@@ -28,7 +28,7 @@ const Order = () => {
         formData.append("project", info.project);
         formData.append("service", info.service);
 
-       fetch("https://hidden-chamber-33509.herokuapp.com/order", {
+       fetch("https://evening-escarpment-47993.herokuapp.com//order", {
          method: "POST",
          body: formData,
        })

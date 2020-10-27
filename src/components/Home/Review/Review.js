@@ -9,7 +9,7 @@ const Review = ({comment}) => {
                 {
                     comment.image ? <img style={{ height: '50px' }} src={`data:image/png;base64,${comment.image.img}`} alt="" />
                         :
-                        <img style={{ height: '50px' }} className="img-fluid mb-3" src={`https://hidden-chamber-33509.herokuapp.com/${comment.img}`} alt="" />
+                        <img style={{ height: '50px' }} className="img-fluid mb-3" src={`https://evening-escarpment-47993.herokuapp.com//${comment.img}`} alt="" />
                 }
 
                 <h5 className="mt-3 mb-3">{comment.name}</h5>
